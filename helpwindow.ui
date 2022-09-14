@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>helpWindow</class>
+ <widget class="QMainWindow" name="helpWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>682</width>
+    <height>464</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>581</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>This is a C++ application by Pouya Behzadi Far and Fatemeh Shirvani, which compiles assembly codes and runs a simulation of Mano’s Computer as detailed in:
+Computer System Architecture, 3rd edition by M. Morris Mano. 
+This application can simulate all functions of the &quot;Mano Machine&quot; including input-output functions, register reference, and memory reference instructions. 
+the main purpose of this application is to assemble programs written in assembly language for the Mano Basic Machine, which is described in Chapter 6 of the reference mentioned above.
+To use this application you should write your program in the left table, you can add rows using the &quot;+&quot; button.
+In the first column, you should enter the label of a variable or function or whatever is called a label in your program. these labels will be stored in memory. you can see memory changes in the right table after compile. 
+In the second column, you should write the instruction of the memory reference or register reference orders. 
+if this is a memory reference instruction you should write the reference in the third column with &quot;Operand&quot; title. 
+If you are using an indirect instruction, you should write the keyword &quot;I&quot; in the fourth column. 
+this is the standard way of coding in this application. Follow the rules to get the expected result. 
+When you've finished coding press the compile button with the &quot;hammer&quot; icon to start the first turn of translation. if you got the &quot;success&quot; message it means everything is alright with your code. 
+To see what's happening in a basic computer when you run this code, you can press the right-most button to see every changes step by step. 
+the memory will fill and change each step and you can see the binary value stored in registers at any moment in the middle picture which is the structure of the Mano basic computer. Also in the list under the coding table, you can understand what is really happening in each clock pulse as you move through your code.  
+This application is easy to learn and code and it's also good for educational goals and to understand Basic computer better. 
+Special thanks to our dedicated professor Dr. Khorsandi.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>11</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../GitHub/computer-architecture-/pics/Webp.net-resizeimage.png</pixmap>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>682</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
